@@ -1,0 +1,8 @@
+streamlit
+pymupdf  # fitz for PDF processing
+python-docx  # For .docx processing
+langchain
+langchain-community
+ollama
+chromadb
+tiktoken
