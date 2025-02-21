@@ -6,9 +6,7 @@
 
 A demonstration of the system in operation can be found in the following video:
 
-[Demo Video](demo.mov)
-
-If the video does not load, it can be accessed directly at [Task4_KsamaArora.mp4](Task4_KsamaArora.mp4).
+If the video does not load, it can be accessed directly at [link]().
 
 ## Installation and Setup
 
@@ -16,7 +14,7 @@ If the video does not load, it can be accessed directly at [Task4_KsamaArora.mp4
 To obtain a local copy of the project, execute the following command:
 
 ```bash
-git clone https://github.com/your-username/DocuQuery-RAG-LangChain-Ollama.git
+git clone https://github.com/ksamaarora/DocuQuery-RAG-LangChain-Ollama.git
 cd DocuQuery-RAG-LangChain-Ollama
 ```
 
@@ -35,11 +33,22 @@ ollama pull mistral
 ```
 
 ### 4. Run the Application
-The application can be launched using:
+To run the application locally, open two separate terminals:
 
-```bash
-streamlit run app.py
-```
+- **In the first terminal**, start the Ollama server:
+
+  ```bash
+  ollama serve
+  ```
+
+- **In the second terminal**, launch the Streamlit application:
+
+  ```bash
+  streamlit run streamlit_app.py
+  ```
+
+### Alternative Approach
+The application could have been implemented using Google's API key for document processing, but since it operates on a **pay-as-you-go** model, this option was not used in this implementation.
 
 ## Project Structure
 
