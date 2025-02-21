@@ -18,21 +18,42 @@ git clone https://github.com/ksamaarora/DocuQuery-RAG-LangChain-Ollama.git
 cd DocuQuery-RAG-LangChain-Ollama
 ```
 
-### 2. Install Dependencies
+### 2. Set Up a Virtual Environment
+It is recommended to use a separate Conda environment for this project.
+
+- **Create a new environment:**
+
+  ```bash
+  conda create --name rag_env python=3.8
+  ```
+
+- **Activate the environment:**
+
+  ```bash
+  conda activate rag_env
+  ```
+
+- **To deactivate the environment when finished:**
+
+  ```bash
+  conda deactivate
+  ```
+
+### 3. Install Dependencies
 Ensure that **Python 3.8+** is installed. The required dependencies can be installed using:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Set Up Ollama
+### 4. Set Up Ollama
 Ollama must be installed and running to execute the model. It can be downloaded from [Ollama's official website](https://ollama.ai/). Once installed, retrieve the **Mistral model** by executing:
 
 ```bash
 ollama pull mistral
 ```
 
-### 4. Run the Application
+### 5. Run the Application
 To run the application locally, open two separate terminals:
 
 - **In the first terminal**, start the Ollama server:
