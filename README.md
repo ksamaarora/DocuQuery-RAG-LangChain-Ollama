@@ -6,7 +6,7 @@
 
 https://github.com/user-attachments/assets/cffd88a3-776d-4862-9b15-f3a48ac3d98b
 
-If the video does not load, it can be accessed directly at [link]().
+If the video does not load, it can be accessed directly at [link](https://drive.google.com/file/d/1ElFE6i4ZKikvu4AvPJ9GtK3ng5XhZ9Fj/view?usp=sharing).
 
 ## Installation and Setup
 
