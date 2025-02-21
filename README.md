@@ -4,7 +4,7 @@
 
 ## Demonstration
 
-A demonstration of the system in operation can be found in the following video:
+https://github.com/user-attachments/assets/cffd88a3-776d-4862-9b15-f3a48ac3d98b
 
 If the video does not load, it can be accessed directly at [link]().
 
@@ -48,7 +48,7 @@ To run the application locally, open two separate terminals:
   ```
 
 ### Alternative Approach
-The application could have been implemented using Google's API key for document processing, but since it operates on a **pay-as-you-go** model, this option was not used in this implementation.
+This could have been implemented using Google's API key for document processing, but since it operates on a **pay-as-you-go** model, i have not used that implementation method. 
 
 ## Project Structure
 
